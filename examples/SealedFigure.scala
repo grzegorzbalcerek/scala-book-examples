@@ -1,0 +1,7 @@
+abstract sealed class Figure(color: Color)
+class Pawn(color: Color) extends Figure(color)
+class King(color: Color) extends Figure(color)
+class Queen(color: Color) extends Figure(color)
+class Rook(color: Color) extends Figure(color)
+class Bishop(color: Color) extends Figure(color)
+class Knight(color: Color) extends Figure(color)
